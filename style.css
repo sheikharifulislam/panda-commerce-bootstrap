@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.slider-aria {
+    background-color: #FEEAE9;
+}
+
+.product-categories-name h2 {
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.watch {
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+}
+
+.bag {
+    background-image: linear-gradient(to right, #FF589B, #FF136F);
+}
+
+.shoes {
+    background-image: linear-gradient(to right, #4289FF, #3F07F8);
+}
+
+.categories-image img {
+    width: 78px;
+    height: 90px;
+}
