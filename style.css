@@ -1,14 +1,49 @@
+        /* global style */
+        
         * {
             margin: 0;
             padding: 0;
         }
         
+        .order-button {
+            background-image: linear-gradient(to right, #A020F0, #6600FF);
+            padding: 9px 20px;
+            color: #fff;
+            border: none;
+            font-size: 17px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            text-transform: capitalize;
+        }
+        
+        .order-button:focus {
+            outline: none;
+        }
+        
         .card {
             border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
         }
+        /* style slider */
         
         .slider-aria {
             background-color: #FEEAE9;
+            margin-top: 50px;
+        }
+        
+        .slider-buy-btn {
+            margin-top: 15px;
+        }
+        /* style product categories */
+        
+        .single-product-category {
+            height: 120px;
         }
         
         .product-categories-name h2 {
@@ -32,11 +67,15 @@
             width: 78px;
             height: 90px;
         }
+        /* star subscribe section */
+        
+        #subscribe-section {
+            margin-top: 100px;
+        }
         
         .subscribe {
-            height: 350px;
+            height: 400px;
             width: 100%;
-            margin-top: 100px;
             background-color: #FEEAE9;
             text-align: center;
         }
@@ -51,10 +90,10 @@
         }
         
         .subscribe-text-and-other input {
-            display: block;
+            display: inline-block;
             width: 40%;
             margin: 0 auto;
-            padding: 9px 0;
+            padding: 13px 0;
             padding-left: 10px;
             border-radius: 10px;
             border: none;
@@ -64,4 +103,31 @@
             outline: none;
             border: 10px solid #eee;
             border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+        }
+        
+        .subscribe-text-and-other button {
+            display: inline-block;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            text-transform: capitalize;
+            padding: 10px 35px;
+            background-image: linear-gradient(to right, #F00BA4, #4B0082);
+            color: #fff;
+            border: none;
+            font-size: 19px;
+        }
+        /* resposnsive design */
+        /* responsive for mobile and tablet */
+        
+        @media screen and (max-width: 900px) {
+            .slider-aria {
+                flex-direction: column-reverse;
+            }
         }
