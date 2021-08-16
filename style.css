@@ -93,7 +93,7 @@
             display: inline-block;
             width: 40%;
             margin: 0 auto;
-            padding: 13px 0;
+            padding: 16px 0;
             padding-left: 10px;
             border-radius: 10px;
             border: none;
@@ -109,7 +109,7 @@
             -o-border-radius: 15px;
         }
         
-        .subscribe-text-and-other button {
+        #send-btn {
             display: inline-block;
             border-radius: 10px;
             -webkit-border-radius: 10px;
@@ -117,11 +117,12 @@
             -ms-border-radius: 10px;
             -o-border-radius: 10px;
             text-transform: capitalize;
-            padding: 10px 35px;
+            padding: 14px 45px;
             background-image: linear-gradient(to right, #F00BA4, #4B0082);
             color: #fff;
             border: none;
             font-size: 19px;
+            cursor: not-allowed;
         }
         /* resposnsive design */
         /* responsive for mobile and tablet */
